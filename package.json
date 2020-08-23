@@ -1,0 +1,29 @@
+{
+  "name": "!",
+  "bin": "dist/index.js",
+  "version": "0.0.1",
+  "description": "A CLI tool meant to bring DuckDuckGo's bangs to node!",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxiCB/node-bang.git"
+  },
+  "author": "Aaron C. Beasley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxiCB/node-bang/issues"
+  },
+  "homepage": "https://github.com/MaxiCB/node-bang#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.12",
+    "@types/node": "^14.6.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  }
+}
